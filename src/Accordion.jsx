@@ -7,7 +7,6 @@ const StyledAccordion = styled.div`
     div {
         display: flex;
         align-items: center;
-        cursor: pointer;
 
         i {
             margin-right: 1em;
@@ -15,6 +14,10 @@ const StyledAccordion = styled.div`
 
         h3 {
             margin: 0;
+        }
+
+        &:first-child {
+            cursor: pointer;
         }
 
         &:nth-child(2) {
