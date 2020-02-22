@@ -21,6 +21,7 @@ const NavbarContent = styled.div`
     margin: 0 auto;
     
     h1 {
+        font-family: 'Rubik Mono One', Arial, Helvetica, sans-serif;
         margin: 0;
     }
 `

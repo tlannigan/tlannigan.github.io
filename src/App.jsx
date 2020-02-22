@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Navbar from './Navbar'
-import Projects from './Projects'
+import Project from './Project'
 
 const StyledApp = styled.div`
 
@@ -19,7 +19,31 @@ function App() {
         <StyledApp className="App">
             <Navbar />
             <MainWrapper>
-                <Projects />
+                <Project
+                    src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
+                    alt='First project'
+                    desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
+                />
+                <Project
+                    src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
+                    alt='First project'
+                    desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
+                />
+                <Project
+                    src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
+                    alt='First project'
+                    desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
+                />
+                <Project
+                    src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
+                    alt='First project'
+                    desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
+                />
+                <Project
+                    src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
+                    alt='First project'
+                    desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
+                />
             </MainWrapper>
         </StyledApp>
     );

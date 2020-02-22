@@ -5,8 +5,10 @@ const StyledLinks = styled.div`
     display: flex;
     
     a {
-        color: #000;
+        font-family: 'Rubik', Arial, Helvetica, sans-serif;
+        font-size: 1.25em;
         text-decoration: none;
+        color: #000;
         margin-left: 2em;
 
         &:hover {
