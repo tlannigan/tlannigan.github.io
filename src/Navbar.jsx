@@ -4,7 +4,10 @@ import styled from 'styled-components'
 import Links from './Links'
 
 const NavbarWrapper = styled.nav`
-    position: sticky;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #FFF;
     box-shadow: 0px 5px 8px 0px #A08D91;
 
     > div {
@@ -23,6 +26,10 @@ const NavbarContent = styled.div`
     h1 {
         font-family: 'Rubik Mono One', Arial, Helvetica, sans-serif;
         margin: 0;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
     }
 `
 

@@ -19,7 +19,7 @@ const StyledProject = styled.div`
         }
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
         flex-direction: column;
         justify-content: fit-content;
         max-height: unset;
@@ -32,9 +32,9 @@ const StyledImg = styled.img`
     width: auto;
     height: auto;
     object-fit: contain;
-    transition: flex 1s ease-in-out;
+    transition: flex 0.5s ease-in-out;
     
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
         flex: 1 1 50%;
         width: 100%;
     }
@@ -46,16 +46,16 @@ const StyledP = styled.p`
     text-align: justify;
     margin: 0;
     padding: 2em 1em;
-    transition: flex 1s ease-in-out;
+    transition: flex 0.5s ease-in-out;
     
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 768px) {
         flex: 1 1 50%;
     }
 `
 
 function Project(props) {
     return (
-        <StyledProject>
+        <StyledProject class="Project">
             <StyledImg src={props.src} alt={props.alt} />
             <StyledP>{props.desc}</StyledP>
         </StyledProject>

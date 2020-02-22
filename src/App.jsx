@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Navbar from './Navbar'
-import Project from './Project'
+import Projects from './Projects'
+import About from './About'
 
 const StyledApp = styled.div`
 
@@ -10,8 +11,13 @@ const StyledApp = styled.div`
 
 const MainWrapper = styled.main`
     max-width: 900px;
-    margin: 2em auto;
+    margin: 6em auto 4em auto;
     padding: 0 2em;
+    
+    h2 {
+        max-width: 600px;
+        margin: 2em auto 1em auto;
+    }
 `
 
 function App() {
@@ -19,31 +25,8 @@ function App() {
         <StyledApp className="App">
             <Navbar />
             <MainWrapper>
-                <Project
-                    src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
-                    alt='First project'
-                    desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
-                />
-                <Project
-                    src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
-                    alt='First project'
-                    desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
-                />
-                <Project
-                    src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
-                    alt='First project'
-                    desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
-                />
-                <Project
-                    src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
-                    alt='First project'
-                    desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
-                />
-                <Project
-                    src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
-                    alt='First project'
-                    desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
-                />
+                <Projects />
+                <About />
             </MainWrapper>
         </StyledApp>
     );
