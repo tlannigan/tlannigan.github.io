@@ -15,7 +15,8 @@ function Skills() {
                 that I've ranked from highest to least familiarity.
             </p>
             <Accordion name="Languages" items={['JavaScript', 'Java', 'Python', 'SQL', 'C++']} />
-            <Accordion name="Frameworks" items={['React', 'jQuery', '']} />
+            <Accordion name="Technologies" items={['Git', 'jQuery', 'React', 'Redux', 'GraphQL', 'Docker']} />
+            <Accordion name="Platforms" items={['AWS', '']} />
         </StyledSkills>
     );
 }
