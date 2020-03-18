@@ -17,7 +17,7 @@ function Skills() {
                 If you're in love with keywords or you are from a recruiting agency, check out these skill lists
                 that I've ranked from highest to least familiarity.
             </p>
-            <Accordion name="Languages" items={['JavaScript', 'Java', 'Python', 'SQL', 'C++']} />
+            <Accordion name="Languages" items={['JavaScript', 'Java', 'SQL', 'PHP', 'Python', 'C++']} />
             <Accordion name="Technologies" items={['Git', 'jQuery', 'React', 'Redux', 'GraphQL', 'Docker']} />
             <Accordion name="Platforms" items={['AWS', 'GitHub', 'Azure']} hidden='Stack Overflow' />
         </StyledSkills>
