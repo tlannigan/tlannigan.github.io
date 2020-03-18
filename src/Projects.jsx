@@ -13,28 +13,41 @@ function Projects() {
             <h2>projects</h2>
             <Project
                 src='./apollo.jpg'
-                alt='Apollo Overwolf project'
-                desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
+                alt='Apollo app'
+                title='Apollo - Overwolf App'
+                desc='Gaming app centered around providing new and unique audio experiences in games that don&apos;t already provide it, enhancing player experiences. Uses user preferences over time to recommend the best music in the moment for the player. Primarily worked frontend, audio streaming system, and database planning.'
+                href='https://www.overwolf.com/app/Players_Republik-Apollo'
             />
             <Project
-                src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
-                alt='First project'
-                desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
+                src='./vidcruiter.png'
+                alt='VidCruiter website'
+                title='VidCruiter'
+                desc='Home of VidCruiter&apos;s flagship product. Improved performance and SEO practices of VidCruiter&apos;s PHP site. Worked on custom WordPress theme, produced and implemented new frontend designs.'
+                href='https://vidcruiter.com/'
             />
             <Project
-                src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
-                alt='First project'
-                desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
+                src='./bgcdieppe.png'
+                alt='Boys &amp; Girls Club of Dieppe website'
+                title='Boys &amp; Girls Club of Dieppe'
+                desc='Home of Boys &amp; Girls Club of Dieppe for communicating schedules, updates, and other event info. Built from a skeleton theme for WordPress while I attended college.'
+                href='http://bgcdieppe.ca'
+                source='https://github.com/tigerwil/bgc-dieppe'
             />
             <Project
-                src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
-                alt='First project'
-                desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
+                src='./lannigandojo.png'
+                alt='Lannigan Dojo website'
+                title='Lannigan Dojo'
+                desc='Planned website for Lannigan Dojo in Moncton, NB'
             />
             <Project
-                src='https://animatedanatomy.com/images/16-9-dummy-image6.jpg'
-                alt='First project'
-                desc='Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.'
+                title='License Plate OCR'
+                desc='Developed for the specific needs of the police students at my college. Allows the user to easily scan a license plate in real-time video and know immediately whether the car belongs to a student.'
+                source='https://github.com/tlannigan/license-plate-ocr'
+            />
+            <Project
+                title='Minecraft OSRS Datapack'
+                desc='The OSRS datapack is an attempt to recreate the popular MMORPG of Old School RuneScape. Datapacks are made using the rudimentary Minecraft "Command" language, allowing the developer to store and retrieve data at specific addresses.'
+                source='https://github.com/tlannigan/osrs-progression'
             />
         </StyledProjects>
     );

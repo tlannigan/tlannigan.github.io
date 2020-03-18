@@ -4,10 +4,9 @@ import styled from 'styled-components'
 import Skills from './Skills'
 
 const StyledAbout = styled.div`
-    max-width: 600px;
-    margin: 0 auto;
-
     p {
+        text-align: justify;
+        font-size: 18px;
         line-height: 1.5;
     }
 `

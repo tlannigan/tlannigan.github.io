@@ -31,7 +31,7 @@ function Links() {
             <a href="#about" title="Learn a bit more about me">about</a>
             <a href="https://github.com/tlannigan" target="_blank" rel="noopener noreferrer" title="My GitHub profile">github</a>
             <a href="https://www.linkedin.com/in/tristanlannigan/" target="_blank" rel="noopener noreferrer" title="My LinkedIn profile">linkedin</a>
-            <a href="/">source</a>
+            <a href="https://github.com/tlannigan/tlannigan.github.io/tree/source">source</a>
         </StyledLinks>
     );
 }

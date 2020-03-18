@@ -13,6 +13,7 @@ const StyledAccordion = styled.div`
         }
 
         h3 {
+            font-size: 24px;
             margin: 0;
         }
 
@@ -26,6 +27,18 @@ const StyledAccordion = styled.div`
             ol {
                 margin: 0;
                 padding-left: 1.9em;
+
+                p {
+                    margin: 0;
+
+                    &:nth-child(2) {
+                        margin-top: 0.5em;
+                    }
+
+                    &.hidden {
+                        display: none;
+                    }
+                }
             }
         }
     }
@@ -42,6 +55,7 @@ function Accordion(props) {
             </div>
             <div>
                 <ol style={{maxHeight: expanded ? 'unset' : 0}}>
+                    <p class="hidden">{props.hidden}</p>
                     {props.items && props.items.map((item) => <p>{item}</p>)}
                 </ol>
             </div>
