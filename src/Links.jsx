@@ -21,6 +21,7 @@ const StyledLinks = styled.div`
     @media only screen and (max-width: 768px) {
         a {
             margin: 0 1em;
+            font-size: 1.10em;
         }
     }
 `

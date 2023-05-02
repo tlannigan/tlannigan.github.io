@@ -30,6 +30,7 @@ const NavbarContent = styled.div`
     
     @media only screen and (max-width: 768px) {
         flex-direction: column;
+        font-size: 0.9em;
     }
 `
 
