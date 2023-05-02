@@ -26,7 +26,6 @@ const StyledImg = styled.img`
 const StyledP = styled.p`
     flex: 0 1 0;
     align-self: center;
-    text-align: justify;
     font-size: 18px;
     margin: 0;
     padding-bottom: 1em;

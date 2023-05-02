@@ -5,7 +5,6 @@ import Skills from './Skills'
 
 const StyledAbout = styled.div`
     p {
-        text-align: justify;
         font-size: 18px;
         line-height: 1.5;
     }
